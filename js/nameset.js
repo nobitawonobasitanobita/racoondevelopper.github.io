@@ -13,6 +13,7 @@ function nameset() {
             return;
         }
         Cookies.set("Playername", namewhat); //名前をCookieに設定
+        Cookies.set("bal", 0);
         alert(`${namewhat}で設定しました。`);
         window.location.href = "../html/home.html";
     }
