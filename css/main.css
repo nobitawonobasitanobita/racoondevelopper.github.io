@@ -14,16 +14,19 @@
     font-family: 'DotGothic16', sans-serif;
     font-size: 20px;
     text-align: center;
-    background-color: aqua;
-    border: solid rgb(64, 168, 228);
-    border-radius: 7%;
-    text-decoration: none;
-    transition-timing-function: ease;
-    transition-delay: 900ms;
-    transition-property: all;
+    animation: linkbotton 2s ease 0s infinite alternate none running;
 }
 
-.linkbotton:hover {
-    color: rgba(97, 9, 9, 0.726);
-    border-bottom: rgba(97, 9, 9, 0.726);
+@keyframes linkbotton {
+    0% {}
+    25% {
+        border-bottom: #808080 solid 3px;
+    }
+    50% {
+        border-bottom: #808080 solid 3px;
+    }
+    75% {
+        border-bottom: #808080 solid 3px;
+    }
+    100% {}
 }
