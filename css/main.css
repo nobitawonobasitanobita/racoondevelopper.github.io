@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+.namesetback {
+    background-color: #fff;
+}
+
+.gamelinkbotton {
+    color: #0b9bd4;
+    font-size: 20px;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.linkbotton {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: solid, rgb(64, 168, 228);
+    border-radius: 7%;
+}
