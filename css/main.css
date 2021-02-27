@@ -17,6 +17,10 @@
     text-decoration: none;
 }
 
+.linkbotton:hover {
+    animation: linkbotton 3.8s ease 0s infinite alternate none running;
+}
+
 @keyframes linkbotton {
     0% {
         border-bottom: #a2a2a2 solid 3px;
